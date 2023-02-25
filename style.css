@@ -1,0 +1,96 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background:  hsl(218, 23%, 16%);
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-style:  'Manrope';
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 33%;
+    align-items: center;
+    background: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    text-align: center;
+    font-style:  'Manrope';
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+ 
+.card p {
+    width: 90%;
+    color: hsl(150, 100%, 66%);
+    font-weight: 800;
+    padding-left:10px;
+    padding-right: 10px;
+
+}
+.card h3{
+font-size: 28px;
+font-weight: 800;
+color:  hsl(193, 38%, 86%);
+}
+.divider{
+    position: absolute;
+    margin-left: 6.5%;
+    margin-top:10rem;
+}
+.divider img{
+    width: 80%;
+  
+}
+.circle{
+   
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: hsl(150, 100%, 66%);
+    margin-top: 19rem;
+ 
+}
+ #circle :hover{
+    box-shadow:   0 0 50px 20px rgb(61, 241, 208);
+ }
+div.circle img{
+    position: absolute;
+   align-items: center;
+   left: 18px;
+   top: 18px;
+    
+}
+ 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .card {
+      width: 90%;
+    }
+    .card h3{
+        padding: 0 10px 0 10px;
+        font-size: 25px;
+    }
+    .circle{
+        margin-top: 19rem;
+    }
+    .divider{
+        margin-left: 17%;  
+    }
+   
+  }
+  
